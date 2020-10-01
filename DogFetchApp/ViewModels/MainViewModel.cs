@@ -288,7 +288,11 @@ namespace DogFetchApp.ViewModels
 
             Debug.WriteLine("Beginning....");
 
+            //création dossier images
+
             string path = Directory.GetCurrentDirectory();
+            string folderName = path + "/images";
+            System.IO.Directory.CreateDirectory(folderName);
 
             //creation des photos dans le dossier images
 
