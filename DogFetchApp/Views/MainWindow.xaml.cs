@@ -1,4 +1,6 @@
-﻿using DogFetchApp.ViewModels;
+﻿using ApiHelper;
+using ApiHelper.Models;
+using DogFetchApp.ViewModels;
 using System.Windows;
 
 namespace DogFetchApp
@@ -19,5 +21,6 @@ namespace DogFetchApp
 
             DataContext = currentViewmodel;
         }
+
     }
 }
